@@ -32,7 +32,8 @@ const Index = props => {
       <section className="py-6 md:py-16 bg-image bg-image-plant">
     <div className="container">
       <div className="lg:flex">
-        <div className="lg:w-2/3 lg:flex items-center">
+        <div className="lg:w-2/3">
+          <div className="lg:flex items-center">
             <div className="lg:w-2/3">
               <div className="max-w-xl mx-auto">
                 <h1 className="text-4xl lg:text-5xl text-center lg:text-left font-light">
@@ -45,6 +46,26 @@ const Index = props => {
                 </h1>
               </div>
             </div>
+          </div>
+
+          <div className="container">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-xl mb-0">
+              Most of us reach a point in our lives when we begin to feel that
+              it is time for change, but when we recognize how difficult it is
+              to alter our existing patterns of thinking and behaviors we tend
+              to give up. This in turn leads to further avoidance, fears,
+              disappointments, and decreased motivation. Ultimately these
+              experiences can leave you feeling anxious or depressed, lead to
+              difficulties in relationships, and have you living an unhappy
+              life. Although it may feel like a dead end, in reality there are
+              many ways in which you could be helped. Psychotherapy is a process
+              through which you can explore your issues, improve insight into
+              what is holding you back, and develop efficient ways to deal with
+              your problems.
+            </p>
+          </div>
+        </div>
 
             <div className="w-full">
               <h2 className="text-3xl">What is Gottman Method Couples Therapy?</h2>
