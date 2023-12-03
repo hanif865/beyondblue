@@ -32,7 +32,7 @@ const Index = props => {
       <section className="py-6 md:py-16 bg-image bg-image-plant">
     <div className="container">
       <div className="lg:flex">
-        <div className="lg:w-2/3">
+        <div className="lg:w-2/3 lg:flex items-center">
             <div className="lg:w-2/3">
               <div className="max-w-xl mx-auto">
                 <h1 className="text-4xl lg:text-5xl text-center lg:text-left font-light">
