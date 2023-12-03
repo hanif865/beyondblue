@@ -88,6 +88,34 @@ const Index = props => {
                   </ul>
               </p>
             </div>
+          <div className="container">
+          <div className="xl:flex items-center py-0">
+            <div className="xl:w-1/3 p-5">
+              <h3 className="mb-2 text-xl">
+                <FontAwesomeIcon icon="globe-asia" className=" text-2xl" />{" "}
+                PSYCHOTHERAPY JAPAN. LLC
+              </h3>
+              <div className="uppercase">Counseling &amp; Consulting</div>
+            </div>
+            <div className="xl:w-1/3 p-5">
+              <a href="tel:03-5962-3883" className="no-underline">
+                <h3 className="mb-2 text-2xl">
+                  <FontAwesomeIcon icon="phone" /> 03-5962-3883
+                </h3>
+                <div className="uppercase">CALL NOW</div>
+              </a>
+            </div>
+            <div className="xl:w-1/3 p-5">
+              <a href="mailto:info@beyondbleu.com" className="no-underline">
+                <h3 className="mb-2 text-2xl">
+                  <FontAwesomeIcon icon="envelope" /> info@beyondbleu.com
+                </h3>
+                <div className="uppercase">E-MAIL ME</div>
+              </a>
+            </div>
+          </div>
+        </div>
+                  
             <div className="w-full">
               <h2 className="text-3xl">Most couples wait too long…</h2>
               <p>
