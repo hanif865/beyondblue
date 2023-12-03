@@ -33,7 +33,35 @@ const Index = props => {
     <div className="container">
       <div className="lg:flex">
         <div className="lg:w-2/3">
-        <div class="lg:w-2/3" bis_skin_checked="1"><div class="max-w-xl mx-auto" bis_skin_checked="1"><h1 class="text-4xl lg:text-5xl text-center lg:text-left font-light">Psychotherapy for<br><span class="font-bold">trauma</span>,<!-- --> <span class="font-bold">depression</span>,<!-- --> <span class="font-bold">anxiety</span>, relationship issues &amp; general struggles of modern life.</h1></div></div>
+            <div className="w-full">
+              <h1 className="page-title b-line">Couples Therapy</h1>
+              <h2 className="font-light text-4xl">
+                Help for partnered <strong>couples</strong>,{" "}
+                <strong>premarital counseling</strong>,{" "}
+                <strong>marriage counseling</strong>, couples divorced, or considering
+                divorce, dating coaching from Gottman
+                method trained therapist
+              </h2>
+              <p className="text-lg">
+              <ul className="list-disc list-outside mx-10 my-6 text-sm">
+                <li>Do you want to reduce conflict and improve communication?</li>
+                <li>Do you long for a way to rebuild trust and connection?</li>
+                <li>Are you looking for greater emotional or sexual intimacy?</li>
+                <li>Are you wondering whether to make it work or to get a
+                  divorce?</li>
+                  <li>Could you benefit from professional support and guidance
+                    through a difficult patch in your relationship?</li>
+              </ul>
+              <p>
+                You’re not alone! Most relationships go through challenging times.
+                In fact, most couples find themselves in trouble because they’ve
+                never learned the tools and skills necessary to make a long-term
+                relationship work. What if you didn’t have to end your relationship?
+                What if, by working on these challenges, your relationship actually
+                thrives and you feel closer than ever?
+              </p>
+              </p>
+            </div>
 
             <div className="w-full">
               <h2 className="text-3xl">What is Gottman Method Couples Therapy?</h2>
