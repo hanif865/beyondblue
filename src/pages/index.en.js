@@ -105,7 +105,7 @@ const Index = props => {
           </div>
           <div className="lg:flex items-center py-3">
             <div className="lg:w-1/2 p-5">
-              <p className="mb-0 text-lg text-gray-900">
+              <p className="mb-0 text-lg text-gray-900 text-justify">
                 <FontAwesomeIcon
                   icon="quote-left"
                   className="text-gray-400 mb-2"
@@ -122,14 +122,15 @@ const Index = props => {
               </p>
             </div>
             <div className="lg:w-1/2 p-5">
-              <p className="mb-0 text-lg text-gray-900">
+              <p className="mb-0 text-lg text-gray-900 text-justify">
                 <FontAwesomeIcon
                   icon="quote-left"
                   className="text-gray-400 mb-2"
                 />{" "}
-                Excellent therapist and person! Excellent service and really
-                really helpful session where the therapist actually shows she
-                cares.{" "}
+                Understanding therapist! Very understanding therapist. Took the
+                time to listen and understand the situation – Flexible about
+                timing, location (via Zoom if needed) – Offering extra or
+                follow-ups when needed.{" "}
                 <FontAwesomeIcon
                   icon="quote-right"
                   className="text-gray-400 mb-2"
