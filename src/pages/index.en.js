@@ -55,7 +55,7 @@ const Index = props => {
               it is time for change, but when we recognize how difficult it is
               to alter our existing patterns of thinking and behaviors we tend
               to give up. This in turn leads to further avoidance, fears,
-              disappointments, and decreased motivation. Ultimately these
+              disappointments,and decreased motivation.Ultimately these
               experiences can leave you feeling anxious or depressed, lead to
               difficulties in relationships, and have you living an unhappy
               life. Although it may feel like a dead end, in reality there are
