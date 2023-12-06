@@ -136,22 +136,6 @@ const Index = props => {
                 />
               </p>
             </div>
-            <div className="lg:w-1/2 p-5">
-              <p className="mb-0 text-lg text-gray-900">
-                <FontAwesomeIcon
-                  icon="quote-left"
-                  className="text-gray-400 mb-2"
-                />{" "}
-                Understanding therapist! Very understanding therapist. Took the
-                time to listen and understand the situation – Flexible about
-                timing, location (via Zoom if needed) – Offering extra or
-                follow-ups when needed.{" "}
-                <FontAwesomeIcon
-                  icon="quote-right"
-                  className="text-gray-400 mb-2"
-                />
-              </p>
-            </div>
           </div>
         </div>
           <div className="container py-16">
