@@ -30,7 +30,7 @@ const Index = props => {
         description="Psychotherapy for trauma, depression, anxiety, relationship issues &amp; general struggles of modern life."
       />
       <section className="py-6 md:py-16 bg-image bg-image-plant">
-    <div className="container">
+    <div className="container ">
       <div className="lg:flex">
         <div className="lg:w-2/3">
           <div className="lg:flex items-center">
@@ -48,7 +48,8 @@ const Index = props => {
             </div>
           </div>
 
-          <div className="container">
+          <div className="container py-16">
+          <hr className="border-gray-400 max-w-6xl mx-auto" />
           <div className="max-w-3xl mx-auto">
             <p className="text-xl mb-0">
               Most of us reach a point in our lives when we begin to feel that
@@ -66,7 +67,8 @@ const Index = props => {
             </p>
           </div>
         </div>
-          <div className="container py-10">
+          <div className="container py-16">
+          <hr className="border-gray-400 max-w-6xl mx-auto" />
           <div className="xl:flex items-center py-0 gap-1">
             <div className="xl:w-[45%] p-5 flex flex-col items-center text-center bg-white">
                 <FontAwesomeIcon icon="globe-asia" className=" text-base" />
@@ -96,7 +98,8 @@ const Index = props => {
             </div>
           </div>
         </div>
-                   <div className="container">
+        <div className="container py-16">
+        <hr className="border-gray-400 max-w-6xl mx-auto" />
           <div className="text-center">
             <h2>What my clients are saying...</h2>
           </div>
@@ -151,7 +154,8 @@ const Index = props => {
             </div>
           </div>
         </div>
-          <div className="container">
+          <div className="container py-16">
+          <hr className="border-gray-400 max-w-6xl mx-auto" />
           <h2 className="text-5xl text-center">
             Book a therapy session, today.
           </h2>
