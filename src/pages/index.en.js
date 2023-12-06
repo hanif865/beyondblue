@@ -36,7 +36,7 @@ const Index = props => {
           <div className="lg:flex items-center">
             <div className="lg:w-full">
               <div className="max-w-4xl mx-auto">
-                <h1 className="text-4xl lg:text-5xl text-center lg:text-left font-light">
+                <h1 className="text-3xl lg:text-5xl text-center lg:text-left font-light">
                   Psychotherapy for testing
                   <br />
                   <span className="font-bold">trauma</span>,{" "}
@@ -49,9 +49,8 @@ const Index = props => {
           </div>
 
           <div className="md:container py-10">
-          <hr className="border-gray-400 max-w-6xl mx-auto" />
           <div className="max-w-3xl mx-auto">
-            <p className="text-xl mb-0">
+            <p className="text-xl mb-0 text-justify">
               Most of us reach a point in our lives when we begin to feel that
               it is time for change, but when we recognize how difficult it is
               to alter our existing patterns of thinking and behaviors we tend
@@ -68,7 +67,6 @@ const Index = props => {
           </div>
         </div>
           <div className="md:container py-10">
-          <hr className="border-gray-400 max-w-6xl mx-auto" />
           <div className="xl:flex items-center py-0 gap-1">
             <div className="xl:w-[45%] p-5 flex flex-col items-center text-center bg-white">
                 <FontAwesomeIcon icon="globe-asia" className=" text-base" />
@@ -99,7 +97,6 @@ const Index = props => {
           </div>
         </div>
         <div className="md:container py-10">
-        <hr className="border-gray-400 max-w-6xl mx-auto" />
           <div className="text-center">
             <h2>What my clients are saying...</h2>
           </div>
@@ -140,8 +137,7 @@ const Index = props => {
           </div>
         </div>
           <div className="md:container py-16">
-          <hr className="border-gray-400 max-w-6xl mx-auto" />
-          <h2 className="text-5xl text-center">
+          <h2 className="text-4xl text-center">
             Book a therapy session, today.
           </h2>
           <p className="text-center max-w-lg mx-auto text-lg">
