@@ -68,7 +68,7 @@ const Index = props => {
         </div>
           <div className="container">
           <div className="xl:flex items-center py-0">
-            <div className="xl:w-3/5 p-5 flex flex-col items-center text-center">
+            <div className="xl:w-[45%] p-5 flex flex-col items-center text-center">
                 <FontAwesomeIcon icon="globe-asia" className=" text-base" />
               <h3 className="mb-2 text-base">
                 {" "}
@@ -76,7 +76,7 @@ const Index = props => {
               </h3>
               <div className="uppercase text-sm">Counseling &amp; Consulting</div>
             </div>
-            <div className="xl:w-1/5 p-5 ">
+            <div className="xl:w-[25%] p-5 flex flex-col items-center text-center">
               <a href="tel:03-5962-3883" className="no-underline flex flex-col">
                   <FontAwesomeIcon icon="phone" />
                 <h3 className="mb-2 text-base">
@@ -85,7 +85,7 @@ const Index = props => {
                 <div className="uppercase">CALL NOW</div>
               </a>
             </div>
-            <div className="xl:w-1/5 p-5">
+            <div className="xl:w-[30%] p-5 flex flex-col items-center text-center">
               <a href="mailto:info@beyondbleu.com" className="no-underline flex flex-col">
                    <FontAwesomeIcon icon="envelope" />
                 <h3 className="mb-2 text-base">
