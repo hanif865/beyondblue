@@ -48,7 +48,7 @@ const Index = props => {
             </div>
           </div>
 
-          <div className="container py-16">
+          <div className="container py-10">
           <hr className="border-gray-400 max-w-6xl mx-auto" />
           <div className="max-w-3xl mx-auto">
             <p className="text-xl mb-0">
@@ -67,7 +67,7 @@ const Index = props => {
             </p>
           </div>
         </div>
-          <div className="container py-16">
+          <div className="container py-10">
           <hr className="border-gray-400 max-w-6xl mx-auto" />
           <div className="xl:flex items-center py-0 gap-1">
             <div className="xl:w-[45%] p-5 flex flex-col items-center text-center bg-white">
@@ -98,13 +98,13 @@ const Index = props => {
             </div>
           </div>
         </div>
-        <div className="container py-16">
+        <div className="container py-10">
         <hr className="border-gray-400 max-w-6xl mx-auto" />
           <div className="text-center">
             <h2>What my clients are saying...</h2>
           </div>
           <div className="lg:flex items-center py-3">
-            <div className="lg:w-1/5 p-5">
+            <div className="lg:w-1/2 p-5">
               <p className="mb-0 text-lg text-gray-900">
                 <FontAwesomeIcon
                   icon="quote-left"
@@ -121,7 +121,7 @@ const Index = props => {
                 />
               </p>
             </div>
-            <div className="lg:w-1/3 p-5">
+            <div className="lg:w-1/2 p-5">
               <p className="mb-0 text-lg text-gray-900">
                 <FontAwesomeIcon
                   icon="quote-left"
@@ -136,7 +136,7 @@ const Index = props => {
                 />
               </p>
             </div>
-            <div className="lg:w-1/3 p-5">
+            <div className="lg:w-1/2 p-5">
               <p className="mb-0 text-lg text-gray-900">
                 <FontAwesomeIcon
                   icon="quote-left"
