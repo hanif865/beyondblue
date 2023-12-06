@@ -68,18 +68,18 @@ const Index = props => {
         </div>
           <div className="container">
           <div className="xl:flex items-center py-0">
-            <div className="xl:w-1/3 p-5">
-                <FontAwesomeIcon icon="globe-asia" className=" text-xl" />
-              <h3 className="mb-2 text-xl">
+            <div className="xl:w-1/3 p-5 flex flex-col items-center text-center">
+                <FontAwesomeIcon icon="globe-asia" className=" text-base" />
+              <h3 className="mb-2 text-base">
                 {" "}
                 PSYCHOTHERAPY JAPAN. LLC
               </h3>
-              <div className="uppercase">Counseling &amp; Consulting</div>
+              <div className="uppercase text-sm">Counseling &amp; Consulting</div>
             </div>
             <div className="xl:w-1/3 p-5 ">
               <a href="tel:03-5962-3883" className="no-underline flex flex-col">
                   <FontAwesomeIcon icon="phone" />
-                <h3 className="mb-2 text-xl">
+                <h3 className="mb-2 text-base">
                    03-5962-3883
                 </h3>
                 <div className="uppercase">CALL NOW</div>
@@ -88,7 +88,7 @@ const Index = props => {
             <div className="xl:w-1/3 p-5">
               <a href="mailto:info@beyondbleu.com" className="no-underline flex flex-col">
                    <FontAwesomeIcon icon="envelope" />
-                <h3 className="mb-2 text-xl">
+                <h3 className="mb-2 text-base">
                   info@beyondbleu.com
                 </h3>
                 <div className="uppercase">E-MAIL ME</div>
