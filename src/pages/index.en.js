@@ -66,7 +66,7 @@ const Index = props => {
             </p>
           </div>
         </div>
-          <div className="container">
+          <div className="container py-6">
           <div className="xl:flex items-center py-0 gap-1">
             <div className="xl:w-[45%] p-5 flex flex-col items-center text-center bg-white">
                 <FontAwesomeIcon icon="globe-asia" className=" text-base" />
