@@ -124,9 +124,13 @@ h6 {
 
 .bg-image {
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
-
+.bg-image-home {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /* Nav */
 
 .nav-menu a {
@@ -275,6 +279,11 @@ a {
 
 @screen lg {
   .bg-image-plant {
+    background-image: url("../images/plant-3-right.jpg");
+    background-position: 60% center;
+    background-attachment: fixed;
+  }
+    .bg-image-home {
     background-image: url("../images/plant-3-right.jpg");
     background-attachment: fixed;
   }
