@@ -30,7 +30,7 @@ const Index = props => {
         description="Psychotherapy for trauma, depression, anxiety, relationship issues &amp; general struggles of modern life."
       />
       <main>
-      <section className="py-6 md:py-16 bg-image-plant">
+      <section className="py-6 md:py-16 bg-image">
     <div className="container ">
       <div className="lg:flex">
         <div className="lg:w-2/3">
