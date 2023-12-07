@@ -29,8 +29,8 @@ const Index = props => {
         title="Psychotherapy for Trauma, Depression &amp; Anxiety. English speaking psychologist in Tokyo"
         description="Psychotherapy for trauma, depression, anxiety, relationship issues &amp; general struggles of modern life."
       />
-      <main className="py-16 md:py-16">
-      <section className="py-6 md:py-16 bg-image bg-image-plant">
+      <main>
+      <section className="py-6 md:py-16 bg-image-plant">
     <div className="container ">
       <div className="lg:flex">
         <div className="lg:w-2/3">
