@@ -121,7 +121,9 @@ h6 {
   border-radius: 4px;
   margin-top: 7px;
 }
-
+.line-height {
+    line-height: 3.7rem;
+}
 .bg-image {
   background-size: cover;
   background-position: center;
