@@ -37,7 +37,7 @@ const Index = props => {
           <div className="lg:flex items-center px-15">
             <div className="lg:full">
               <div className="max-w-4xl mx-auto">
-                <h1 className="text-3xl lg:text-5xl text-center lg:text-left font-light">
+                <h1 className="text-3xl lg:text-5xl text-center leading-[line-height: 3.7rem;] lg:text-left font-light">
                   Psychotherapy for testing
                   <br />
                   <span className="font-bold">trauma</span>,{" "}
