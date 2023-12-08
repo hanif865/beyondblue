@@ -279,7 +279,7 @@ a {
 
 @screen lg {
   .bg-image-plant {
-    background-image: url("../images/plant-3-right.jpg");
+    background-image: url("../images/home-bg.png");
     background-position: 60% center;
     background-attachment: fixed;
   }
