@@ -70,7 +70,7 @@ const Index = props => {
             </div>
               <div className="md:container py-10">
                 <div className="lg:flex items-center py-0 gap-1">
-                  <a href="mailto:info@beyondbleu.com" className="py-5 mb-0 lg:mb-1 bg-white xl:w-1/2
+                  <a href="mailto:info@beyondbleu.com" className="py-5 mb-1 lg:mb-0 bg-white xl:w-1/2
  no-underline flex flex-col items-center text-center">
                        <FontAwesomeIcon icon="envelope" />
                     <h3 className="my-2 text-base">
@@ -78,7 +78,7 @@ const Index = props => {
                     </h3>
                     <div className="uppercase">E-MAIL ME</div>
                   </a>
-                    <a href="tel:03-5962-3883" className="py-5 mb-0 lg:mb-1 bg-white xl:w-1/2
+                    <a href="tel:03-5962-3883" className="py-5 mb-1 lg:mb-0 bg-white xl:w-1/2
  no-underline flex flex-col items-center text-center">
                       <FontAwesomeIcon icon="phone" />
                     <h3 className="my-2 text-base">
