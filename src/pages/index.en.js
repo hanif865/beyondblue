@@ -39,12 +39,12 @@ const Index = props => {
                 <div className="lg:full">
                   <div className="max-w-4xl mx-auto">
                     <h1 className="text-3xl lg:text-5xl text-center line-height lg:text-left font-light">
-                      Psychotherapy for testing
-                      <br />
-                      <span className="font-bold">trauma</span>,{" "}
-                      <span className="font-bold">depression</span>,{" "}
-                      <span className="font-bold">anxiety</span>, relationship
-                      issues &amp; general struggles of modern life.
+                      Psychotherapy for
+                  <br />
+                  <span className="font-bold">trauma</span>,{" "}
+                  <span className="font-bold">depression</span>,{" "}
+                  <span className="font-bold">anxiety</span>, relationship
+                  issues &amp; general struggles of modern life.
                     </h1>
                   </div>
                 </div>
@@ -53,24 +53,24 @@ const Index = props => {
               <div className="md:container py-10">
               <div className="max-w-3xl mx-auto">
                 <p className="text-xl mb-0 text-justify">
-                  Most of us reach a point in our lives when we begin to feel that
-                  it is time for change, but when we recognize how difficult it is
-                  to alter our existing patterns of thinking and behaviors we tend
-                  to give up. This in turn leads to further avoidance, fears,
-                  disappointments,and decreased motivation.Ultimately these
-                  experiences can leave you feeling anxious or depressed, lead to
-                  difficulties in relationships, and have you living an unhappy
-                  life. Although it may feel like a dead end, in reality there are
-                  many ways in which you could be helped. Psychotherapy is a process
-                  through which you can explore your issues, improve insight into
-                  what is holding you back, and develop efficient ways to deal with
-                  your problems.
+              Most of us reach a point in our lives when we begin to feel that
+              it is time for change, but when we recognize how difficult it is
+              to alter our existing patterns of thinking and behaviors we tend
+              to give up. This in turn leads to further avoidance, fears,
+              disappointments, and decreased motivation. Ultimately these
+              experiences can leave you feeling anxious or depressed, lead to
+              difficulties in relationships, and have you living an unhappy
+              life. Although it may feel like a dead end, in reality there are
+              many ways in which you could be helped. Psychotherapy is a process
+              through which you can explore your issues, improve insight into
+              what is holding you back, and develop efficient ways to deal with
+              your problems.
                 </p>
               </div>
             </div>
               <div className="md:container py-10">
-                                    <div className="xl:flex items-center py-0 gap-1">
-                <div className="xl:w-full p-5 flex flex-col items-center text-center bg-white mb-xs">
+               <div className="xl:flex items-center py-0 gap-1">
+                <div className="xl:w-full p-5 flex flex-col items-center text-center bg-white mb-1">
                     <FontAwesomeIcon icon="globe-asia" className=" text-base" />
                   <h3 className="my-2 text-base">
                     {" "}
