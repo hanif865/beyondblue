@@ -37,7 +37,7 @@ const Index = props => {
           <div className="lg:flex items-center px-15">
             <div className="lg:full">
               <div className="max-w-4xl mx-auto">
-                <h1 className="text-3xl lg:text-5xl text-center leading-[3.7rem;] lg:text-left font-light">
+                <h1 className="text-3xl lg:text-5xl text-center line-height lg:text-left font-light">
                   Psychotherapy for testing
                   <br />
                   <span className="font-bold">trauma</span>,{" "}
@@ -68,6 +68,22 @@ const Index = props => {
           </div>
         </div>
           <div className="md:container py-10">
+                            <div className="flex items-center py-0 gap-1 p-5 bg-white mb-xs">
+              <a href="mailto:info@beyondbleu.com" className="no-underline flex flex-col items-center text-center">
+                   <FontAwesomeIcon icon="envelope" />
+                <h3 className="my-2 text-base">
+                  info@beyondbleu.com
+                </h3>
+                <div className="uppercase">E-MAIL ME</div>
+              </a>
+                <a href="tel:03-5962-3883" className="no-underline flex flex-col items-center text-center">
+                  <FontAwesomeIcon icon="phone" />
+                <h3 className="my-2 text-base">
+                   03-5962-3883
+                </h3>
+                <div className="uppercase">CALL NOW</div>
+              </a>
+            </div>
           <div className="xl:flex items-center py-0 gap-1">
             <div className="xl:w-[45%] p-5 flex flex-col items-center text-center bg-white mb-xs">
                 <FontAwesomeIcon icon="globe-asia" className=" text-base" />
@@ -77,24 +93,15 @@ const Index = props => {
               </h3>
               <div className="uppercase text-sm">Counseling &amp; Consulting</div>
             </div>
-            <div className="xl:w-[25%] p-5 bg-white mb-xs">
-              <a href="tel:03-5962-3883" className="no-underline flex flex-col items-center text-center">
-                  <FontAwesomeIcon icon="phone" />
-                <h3 className="my-2 text-base">
-                   03-5962-3883
-                </h3>
-                <div className="uppercase">CALL NOW</div>
-              </a>
-            </div>
-            <div className="xl:w-[30%] p-5 bg-white mb-xs">
-              <a href="mailto:info@beyondbleu.com" className="no-underline flex flex-col items-center text-center">
-                   <FontAwesomeIcon icon="envelope" />
-                <h3 className="my-2 text-base">
-                  info@beyondbleu.com
-                </h3>
-                <div className="uppercase">E-MAIL ME</div>
-              </a>
-            </div>
+            // <div className="xl:w-[25%] p-5 bg-white mb-xs">
+            //   <a href="tel:03-5962-3883" className="no-underline flex flex-col items-center text-center">
+            //       <FontAwesomeIcon icon="phone" />
+            //     <h3 className="my-2 text-base">
+            //        03-5962-3883
+            //     </h3>
+            //     <div className="uppercase">CALL NOW</div>
+            //   </a>
+            // </div>
           </div>
         </div>
         <div className="md:container py-10">
