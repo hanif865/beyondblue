@@ -69,7 +69,7 @@ const Index = props => {
               </div>
             </div>
               <div className="md:container py-10">
-                <div className="lg:flex items-center py-0 gap-1  mb-1">
+                <div className="lg:flex items-center py-0 gap-1">
                   <a href="mailto:info@beyondbleu.com" className="py-5 mb-0 lg:mb-1 bg-white xl:w-1/2
  no-underline flex flex-col items-center text-center">
                        <FontAwesomeIcon icon="envelope" />
