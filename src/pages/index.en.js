@@ -151,6 +151,7 @@ const Index = props => {
           </div>
         </div>
         </div> 
+        </div>
       </section>
   </main>
     </Layout>
