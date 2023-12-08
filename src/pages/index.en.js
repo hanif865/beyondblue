@@ -93,16 +93,6 @@ const Index = props => {
               </h3>
               <div className="uppercase text-sm">Counseling &amp; Consulting</div>
             </div>
-            // <div className="xl:w-[25%] p-5 bg-white mb-xs">
-            //   <a href="tel:03-5962-3883" className="no-underline flex flex-col items-center text-center">
-            //       <FontAwesomeIcon icon="phone" />
-            //     <h3 className="my-2 text-base">
-            //        03-5962-3883
-            //     </h3>
-            //     <div className="uppercase">CALL NOW</div>
-            //   </a>
-            // </div>
-          </div>
         </div>
         <div className="md:container py-10">
           <div className="text-center">
