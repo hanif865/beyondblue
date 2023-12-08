@@ -70,14 +70,16 @@ const Index = props => {
             </div>
               <div className="md:container py-10">
                 <div className="flex items-center py-0 gap-1 p-5 bg-white mb-xs">
-                  <a href="mailto:info@beyondbleu.com" className="no-underline flex flex-col items-center text-center">
+                  <a href="mailto:info@beyondbleu.com" className="w-1/2
+ no-underline flex flex-col items-center text-center">
                        <FontAwesomeIcon icon="envelope" />
                     <h3 className="my-2 text-base">
                       info@beyondbleu.com
                     </h3>
                     <div className="uppercase">E-MAIL ME</div>
                   </a>
-                    <a href="tel:03-5962-3883" className="no-underline flex flex-col items-center text-center">
+                    <a href="tel:03-5962-3883" className="w-1/2
+ no-underline flex flex-col items-center text-center">
                       <FontAwesomeIcon icon="phone" />
                     <h3 className="my-2 text-base">
                        03-5962-3883
@@ -86,7 +88,7 @@ const Index = props => {
                   </a>
                 </div>
               <div className="xl:flex items-center py-0 gap-1">
-                <div className="xl:w-[45%] p-5 flex flex-col items-center text-center bg-white mb-xs">
+                <div className="xl:w-full p-5 flex flex-col items-center text-center bg-white mb-xs">
                     <FontAwesomeIcon icon="globe-asia" className=" text-base" />
                   <h3 className="my-2 text-base">
                     {" "}
