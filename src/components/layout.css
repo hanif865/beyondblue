@@ -290,5 +290,8 @@ a {
     background-attachment: fixed;
   }
 }
-
+.about-img {
+    position: fixed;
+    right: 30px;
+}
 /* purgecss end ignore */
