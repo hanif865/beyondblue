@@ -100,8 +100,8 @@ const Index = props => {
               <div className="text-center">
                 <h2>クライアント様のご感想</h2>
               </div>
-              <div className="lg:flex gap-5 py-3">
-                <div className="lg:w-1/2 ">
+              <div className=" py-3">
+                <div className="lg:w-full ">
                   <p className="mb-0 text-md text-gray-900 text-justify">
                     <FontAwesomeIcon
                       icon="quote-left"
@@ -116,7 +116,7 @@ const Index = props => {
                     />
                   </p>
                 </div>
-                                        <div className="lg:w-1/2 ">
+                <div className="lg:w-full ">
                   <p className="mb-0 text-md text-gray-900 text-justify">
                     <FontAwesomeIcon
                       icon="quote-left"
