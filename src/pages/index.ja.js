@@ -135,15 +135,8 @@ const Index = props => {
               </div>
             </div>
               <div className="md:container py-16">
-              <h2 className="text-4xl text-center">
-                Book a therapy session, today.
-              </h2>
-              <p className="text-center max-w-lg mx-auto text-lg">
-                Whether you're struggling with anxiety, depression, low self-esteem,
-                or relationship troubles, I can help.
-              </p>
               <div className="text-center">
-                <BookingButton />
+               <BookingButton />
               </div>
             </div>       
             <div className="w-1/3"></div>
