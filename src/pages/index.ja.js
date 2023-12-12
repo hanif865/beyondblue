@@ -101,7 +101,7 @@ const Index = props => {
                 <h2>クライアント様のご感想</h2>
               </div>
               <div className=" py-3">
-                <div className="lg:w-full ">
+                <div className="lg:w-full mb-6 ">
                   <p className="mb-0 text-md text-gray-900 text-justify">
                     <FontAwesomeIcon
                       icon="quote-left"
