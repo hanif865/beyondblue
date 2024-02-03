@@ -1,10 +1,32 @@
-import React from "react"
-import Link from "./app_link"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { useTranslation } from "react-i18next"
+import React, { useEffect } from "react";
+import Link from "./app_link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useTranslation } from "react-i18next";
 
-export default () => {
-  const { t } = useTranslation()
+const Footer = () => {
+  const { t } = useTranslation();
+
+  useEffect(() => {
+    // Initialize Histats tracking script
+    window._Hasync = window._Hasync || [];
+    window._Hasync.push(['Histats.start', '1,4842097,4,6,200,40,00011111']);
+    window._Hasync.push(['Histats.fasi', '1']);
+    window._Hasync.push(['Histats.track_hits', '']);
+    window._Hasync.push(['Histats.framed_page', '']);
+
+    const hs = document.createElement('script');
+    hs.type = 'text/javascript';
+    hs.async = true;
+    hs.src = '//s10.histats.com/js15_as.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+
+    // Cleanup function to remove script if the component unmounts
+    return () => {
+      if (document.body.contains(hs)) {
+        document.body.removeChild(hs);
+      }
+    };
+  }, []);
 
   return (
     <footer className="bg-white relative">
@@ -18,7 +40,7 @@ export default () => {
             />
             <h6>{t("Appointments and Inquiries")}</h6>
             <div>
-              <strong>{t("Monday to Sunday (Everyday)")}</strong> 9:00~18:00      
+              <strong>{t("Monday to Sunday (Everyday)")}</strong> 9:00~18:00
             </div>
           </div>
           <div className="lg:w-1/4 ml-auto text-center lg:text-left p-5 pt-10">
@@ -74,10 +96,16 @@ export default () => {
         </div>
         <hr />
         <div className="py-6 text-center lg:text-left">
-          © {new Date().getFullYear()}@beyondbleu.com. All rights reserved.      
+          © {new Date().getFullYear()} Beyond Bleu. All rights reserved.
         </div>
-
       </div>
+      <noscript>
+        <a href="/" target="_blank">
+          <img src="//sstatic1.histats.com/0.gif?4842097&101" alt="website statistics" border="0" />
+        </a>
+      </noscript>
     </footer>
-  )
-}
+  );
+};
+
+export default Footer;
