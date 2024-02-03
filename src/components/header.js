@@ -76,6 +76,9 @@ export default () => {
     <header className="fixed z-10 w-full bg-white shadow-lg top-0">
       <div className="bg-primary text-white h-10 flex items-center relative">
         <div className="container text-right relative">
+    <a href="/" alt="page hit counter" target="_blank" >
+<embed src="//s10.histats.com/6.swf"  flashvars="jver=1&acsid=4842097&domi=4"  quality="high" name="6.swf"  align="middle" type="application/x-shockwave-flash" pluginspage="//www.macromedia.com/go/getflashplayer" wmode="transparent" /></a>
+<img  src="//sstatic1.histats.com/0.gif?4842097&101" alt="website statistics" border="0">
           <a className="md:mx-2 no-underline" href="tel:03-5962-3883">
             <FontAwesomeIcon icon="phone" className="mr-1" /> 03-5962-3883
           </a>
