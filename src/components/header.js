@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react"
+import React, { useContext, useState, useEffect  } from "react"
 import AppContext from "../contexts/app_context"
 import { Link as GatsbyLink } from "gatsby"
 import Link from "./app_link"
