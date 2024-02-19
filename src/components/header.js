@@ -9,6 +9,7 @@ const Nav = () => {
   const { t } = useTranslation()
   const [isOpen, open] = useState(false)
 useEffect(() => {
+  console.log("Adding GA Script");
     // Only add the GA script once
     if (window.dataLayer) return;
 
