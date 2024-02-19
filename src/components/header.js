@@ -8,7 +8,22 @@ import { useTranslation } from "react-i18next"
 const Nav = () => {
   const { t } = useTranslation()
   const [isOpen, open] = useState(false)
+useEffect(() => {
+    // Only add the GA script once
+    if (window.dataLayer) return;
 
+    // Load the Google Analytics script
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-C9MQ6CT677";
+    document.head.appendChild(script);
+
+    // Initialize Google Analytics
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-C9MQ6CT677');
+  }, []);
   return (
     <>
       <button className="nav-menu-btn p-3 -mr-3" onClick={() => open(!isOpen)}>
